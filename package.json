@@ -1,0 +1,20 @@
+{
+  "name": "weekend-health-take-home",
+  "version": "1.0.0",
+  "description": "Take home assignment for Weekend Health",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc && node dist/findWords.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.2"
+  }
+}
