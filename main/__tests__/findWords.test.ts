@@ -6,9 +6,9 @@ test("findWords tests", () => {
           result1: string[] = ["ate", "eat", "tea"],
           inputString2: string = "oogd",
           result2: string[] = ["dog", "do", "god", "goo", "go", "good"],
-          inputString3: string = 'abcde',
-          dictionary3: string[] = ['ab', 'de', 'abcdefg', 'zyx', 'jklabc'],
-          result3: string[] = ['ab', 'de'];
+          inputString3: string = 'aaaaaaaaa',
+          dictionary3: string[] = ['aa','ab', 'de', 'abcdefg', 'zyx', 'jklabc'],
+          result3: string[] = ['aa'];
 
     expect(findWords(inputString1, dictionary1)).toEqual(expect.arrayContaining(result1));
     expect(findWords(inputString2, dictionary1)).toEqual(expect.arrayContaining(result2));
